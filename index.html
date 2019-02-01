@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title></title>
+		<style>
+			#board {
+			  display: block;
+			  margin: 0 auto;
+			}
+
+			.canvas-wrapper {
+			  position: absolute;
+			  top: 50%;
+			  transform: translateY(-50%);
+			  width: 100%;
+			}
+
+			.canvas-wrapper-parent {
+			  transform-style: preserver-3d;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="center-wrapper-parent">
+	  <div class="canvas-wrapper">
+		<canvas id="board" class="center-v"></canvas>
+	  </div>
+	</div>
+	<script data-main="js/main" src="js/require.js"></script>
+	</body>
+</html>
